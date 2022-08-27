@@ -15,10 +15,17 @@ body {
 h1 {
 	margin: 0;
 	padding: 20px 0;
-	text-shadow: 3px 3px 1px black;
 	font-size: 30px;
 	text-align: center;
 	color: #F1F2EE;
+}
+
+a:link {
+	color: #5863F8;
+}
+
+a:visited {
+	color: #5B2BE8;
 }
 
 p, li {
