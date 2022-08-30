@@ -12,12 +12,21 @@ body {
 	border: 5px;
 }
 
-h1 {
+h1, h2 {
 	margin: 0;
 	padding: 20px 0;
-	font-size: 20px;
 	text-align: center;
 	color: #F1F2EE;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 30px;
+	text-decoration: underline;
+	page-break-before: always;
 }
 
 a:link {
