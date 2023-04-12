@@ -2,6 +2,7 @@ html {
 	background-color: #181818;
 	font-size: 10px;
 	font-family: "Roboto", sans-serif;
+	background-image: url(../data/site-background.jpg);
 }
 
 body {
