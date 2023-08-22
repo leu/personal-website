@@ -15,8 +15,8 @@ var httpsOptions
 if (process.env.NODE_ENV === "production") {
   console.log("production!")
   httpsOptions = {
-    key: fs.readFileSync("/etc/letsencrypt/live/bykeltd.co.uk/privkey.pem"),
-    cert: fs.readFileSync("/etc/letsencrypt/live/bykeltd.co.uk/fullchain.pem"),
+    key: fs.readFileSync("/etc/letsencrypt/live/danielsimols.net/privkey.pem"),
+    cert: fs.readFileSync("/etc/letsencrypt/live/danielsimols.net/fullchain.pem"),
   }
 }
 
