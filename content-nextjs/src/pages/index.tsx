@@ -23,7 +23,7 @@ export default function Home() {
           <ul>
             <li><a href="https://www.linkedin.com/in/daniel-simols-325325207/">LinkedIn</a></li>
             <li><a href="https://github.com/leu">GitHub</a></li>
-            <li><a href="/data/cv.pdf">CV</a></li>
+            <li><a href="/cv.pdf">CV</a></li>
           </ul>
         </div>
       </div>
