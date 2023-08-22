@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from "../components/navbar";
 
 export default function Home() {
   return (
@@ -9,9 +10,7 @@ export default function Home() {
       </Head>
 
       <div className="background">
-        <div className="navBar">
-          <h1><a href="/">About Me</a> - <a href="/projects">My Projects</a> - <a href="/recommended">What I've Learned</a></h1>
-        </div>
+        {Navbar()}
         <div className="body">
           <p>Hello 👋, I'm Daniel. I'm studying Computer Science in my 4th year at Imperial College London.</p><p>You can contact me through:</p>
           <ul>
