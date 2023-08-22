@@ -16,7 +16,7 @@ export default function Blog1() {
                     <p>One thing that’s constantly on my mind is 
                         “Why am I so lazy? Why don’t I feel like doing this simple task even 
                         though I would simply benefit?”</p>
-                    <img src="/ghibli-resting.webp" alt=""/>
+                    <img src="/ghibli-resting.webp" alt="" className="imgMax"/>
                     <p>One answer that I’ve thought of is “Because it encourages us to be efficient 
                         in how we approach the problem”. From this perspective, you could 
                         consider the lazy voice inside of you as a source of pragmatism, so 
