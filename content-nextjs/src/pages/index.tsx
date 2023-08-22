@@ -13,7 +13,7 @@ export default function Home() {
           <h1><a href="/">About Me</a> - <a href="/projects">My Projects</a> - <a href="/recommended">What I've Learned</a></h1>
         </div>
         <div className="body">
-          <p>Hello 👋, I'm Daniel. I'm studying Computer Science in my 3rd year at Imperial College London.</p><p>You can contact me through:</p>
+          <p>Hello 👋, I'm Daniel. I'm studying Computer Science in my 4th year at Imperial College London.</p><p>You can contact me through:</p>
           <ul>
             <li>Discord:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inlieuofleu</li>
             <li>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in.lieu.of.leu@gmail.com</li>
