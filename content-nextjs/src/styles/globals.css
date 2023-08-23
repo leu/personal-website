@@ -108,3 +108,9 @@ img {
 .imgMax {
 	max-width: 100%;
 }
+
+.scrawlerLink {
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+}
