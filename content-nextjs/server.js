@@ -15,8 +15,8 @@ var httpsOptions
 if (process.env.NODE_ENV === "production") {
   console.log("production!")
   httpsOptions = {
-    key: fs.readFileSync("/etc/letsencrypt/live/danielsimols.net/privkey.pem"),
-    cert: fs.readFileSync("/etc/letsencrypt/live/danielsimols.net/fullchain.pem"),
+    key: fs.readFileSync("/etc/letsencrypt/live/danielsimols.net-0001/privkey.pem"),
+    cert: fs.readFileSync("/etc/letsencrypt/live/danielsimols.net-0001/fullchain.pem"),
   }
 }
 
@@ -36,13 +36,13 @@ app.prepare().then(() => {
     })
 
     server.addContext("danielsimols.net", {
-      key: fs.readFileSync("/etc/letsencrypt/live/danielsimols.net/privkey.pem"),
-      cert: fs.readFileSync("/etc/letsencrypt/live/danielsimols.net/fullchain.pem"),
+      key: fs.readFileSync("/etc/letsencrypt/live/danielsimols.net-0001/privkey.pem"),
+      cert: fs.readFileSync("/etc/letsencrypt/live/danielsimols.net-0001/fullchain.pem"),
     })
   
     server.addContext("www.danielsimols.net", {
-      key: fs.readFileSync("/etc/letsencrypt/live/www.danielsimols.net/privkey.pem"),
-      cert: fs.readFileSync("/etc/letsencrypt/live/www.danielsimols.net/fullchain.pem"),
+      key: fs.readFileSync("/etc/letsencrypt/live/danielsimols.net-0001/privkey.pem"),
+      cert: fs.readFileSync("/etc/letsencrypt/live/danielsimols.net-0001/fullchain.pem"),
     })
   
   }
