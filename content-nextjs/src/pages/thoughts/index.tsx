@@ -14,7 +14,7 @@ export default function Thoughts( { thoughtsArray }: any ) {
         <div className="background">
             {Navbar()}
             <div className="body">
-                <h2>Thoughts</h2>
+                <h2>Thoughts (Most Recent First)</h2>
                 {thoughtsArray.map((thought: any) => (<p key={thought}>{thought as string}</p>))}
             </div>
         </div>
@@ -24,7 +24,7 @@ export default function Thoughts( { thoughtsArray }: any ) {
 export async function getServerSideProps() {
     try {
         const data = fs.readFileSync('src/pages/thoughts/thoughts.txt', 'utf8');
-        return { props: { thoughtsArray: data.split("\n\n") } }
+        return { props: { thoughtsArray: data.split("\n\n").reverse() } }
     } catch (err) {
         console.error(err);
     }
