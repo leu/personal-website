@@ -15,7 +15,7 @@ export default function Thoughts( { thoughtsArray }: any ) {
             {Navbar()}
             <div className="body">
                 <h2>Thoughts</h2>
-                {thoughtsArray.map((thought: any) => (<div>{thought as string}</div>))}
+                {thoughtsArray.map((thought: any) => (<p key={thought}>{thought as string}</p>))}
             </div>
         </div>
     </>
