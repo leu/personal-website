@@ -5,7 +5,7 @@ export default function Navbar() {
                 <a href="/">About Me</a> 
                 &nbsp;- <a href="/scrawler">Scrawler</a> 
                 &nbsp;- <a href="/advice">My Advice For You</a>
-                &nbsp;- <a href="/blog">Blog</a>
+                &nbsp;- <a href="/thoughts">Random Thoughts</a>
             </h1>
         </div>)
 }
