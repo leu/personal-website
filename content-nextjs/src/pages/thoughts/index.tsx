@@ -3,8 +3,6 @@ import fs from 'fs';
 import Head from 'next/head';
 
 export default function Thoughts( { thoughtsArray }: any ) {
-    console.log(thoughtsArray)
-
     return <>
         <Head>
             <title>Daniel Simols - Scrawler</title>
