@@ -15,7 +15,7 @@ jobs:
       - name: Deploy
         run: |
           cd content-nextjs
-          screen -S deployment -X quit
+          screen -S deployment -X quit || true
           RUNNER_TRACKING_ID="" && screen -S deployment -dm bash -c 'NODE_ENV=production npm run start'
 
 
