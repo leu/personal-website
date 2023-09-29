@@ -6,8 +6,7 @@ export default function Document() {
       <Head>
         <meta charSet="utf-8" />
         <meta name="description" content="Daniel Simols' personal website" />
-        <meta name="keywords" content="html blog personal developer games gaming ffxiv cv daniel simols" />
-        <link href="styles/style.css" rel="stylesheet" />
+        <meta name="keywords" content="html blog personal developer cv daniel simols" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
