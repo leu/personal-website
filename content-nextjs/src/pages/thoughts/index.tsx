@@ -1,6 +1,7 @@
 import Navbar from '@/components/navbar';
 import fs from 'fs';
 import Head from 'next/head';
+import general from "@/styles/general.module.css"
 
 export default function Thoughts( { thoughtsArray }: any ) {
     return <>
@@ -13,7 +14,7 @@ export default function Thoughts( { thoughtsArray }: any ) {
             {Navbar()}
             <div className="body">
                 <h2>Thoughts (Most Recent First)</h2>
-                {thoughtsArray.map((thought: any) => (<p key={thought}>{thought as string}</p>))}
+                {thoughtsArray.map((thought: any) => (<p className={general.thoughts} key={thought}>{thought as string}</p>))}
             </div>
         </div>
     </>
