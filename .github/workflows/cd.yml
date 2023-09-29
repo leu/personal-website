@@ -15,5 +15,10 @@ jobs:
       - name: Deploy
         run: |
           cd content-nextjs
-          for pid in $(jobs -p); do kill $pid; done
-          RUNNER_TRACKING_ID="" && nohup ./startup.sh > /dev/null 2>&1 &
+          screen -S deployment -X quit
+          RUNNER_TRACKING_ID="" && screen -S deployment -dm bash -c 'NODE_ENV=production npm run start'
+
+
+        # cd content-nextjs
+        # for pid in $(jobs -p); do kill $pid; done
+        # RUNNER_TRACKING_ID="" && nohup ./startup.sh > /dev/null 2>&1 &
