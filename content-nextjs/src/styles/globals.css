@@ -102,3 +102,8 @@ img {
 	display: flex;
 	justify-content: center;
 }
+
+.vagabondImage {
+	margin: 60px auto 20px;
+	max-width: 100%;
+}

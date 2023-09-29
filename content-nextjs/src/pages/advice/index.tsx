@@ -21,6 +21,7 @@ export default function Recommended() {
                     <p>
                         Writing daily in my journal is probably the most helpful thing I've learned to do. You can't really think without writing it down. It also really helps with going through with doing things differently in your life. I highly recommend trying it.
                     </p>
+                    <img className="vagabondImage" src="/large-mountains.jpg"/>
                 </div>
             </div>
 		</>
