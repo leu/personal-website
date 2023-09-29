@@ -8,6 +8,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - run: cd content-nextjs
+      - run: npm i
       - run: npm run build
       - run: screen -S deployment -X quit
       - run: screen -S deployment -dm npm run start
