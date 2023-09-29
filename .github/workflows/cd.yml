@@ -16,4 +16,4 @@ jobs:
         run: |
           cd content-nextjs
           screen -S deployment -X quit
-          screen -S deployment -dm bash -c 'NODE_ENV=production npm run start'
+        # screen -S deployment -dm bash -c 'NODE_ENV=production npm run start'
