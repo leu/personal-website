@@ -15,5 +15,7 @@ jobs:
       - name: Deploy
         run: |
           cd content-nextjs
-          screen -S deployment -dm bash -c 'NODE_ENV=production npm run start'
+          kill $(jobs -p)
+          nohup ./startup.sh > /dev/null 2>&1 &
+        # screen -S deployment -dm bash -c 'NODE_ENV=production npm run start'
         # screen -S deployment -X quit
