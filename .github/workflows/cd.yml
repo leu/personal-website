@@ -17,5 +17,3 @@ jobs:
           cd content-nextjs
           for pid in $(jobs -p); do kill $pid; done
           nohup ./startup.sh > /dev/null 2>&1 &
-        # screen -S deployment -dm bash -c 'NODE_ENV=production npm run start'
-        # screen -S deployment -X quit
