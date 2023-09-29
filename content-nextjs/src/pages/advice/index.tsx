@@ -12,7 +12,7 @@ export default function Recommended() {
             <div className="background">
                 {Navbar()}
                 <div className="body">
-                    <h1>My Advice For You</h1>
+                    <h1>My Advice</h1>
                     <h2>Boredom</h2>
                     <p>
                         I believe one of the healthiest things you can do is get yourself bored. Feel like you're not living your life to the fullest? Boredom will put you on the right track.
