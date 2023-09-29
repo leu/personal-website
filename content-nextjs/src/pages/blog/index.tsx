@@ -13,7 +13,7 @@ export default function Blog() {
                 {Navbar()}
                 <div className="body">
                     <h1>Blog Articles</h1>
-                    <a href="/blog/1"><h2 className={"blogArticle"}>Laziness Is A Tool</h2></a>
+                    <a href="/blog/1"><h2 className={"blogArticle"}>ON LAZINESS</h2></a>
                 </div>
             </div>
 		</>

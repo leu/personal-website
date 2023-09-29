@@ -12,42 +12,68 @@ export default function Blog1() {
             <div className="background">
                 {Navbar()}
                 <div className="body">
-                    <h1>Laziness Is A Tool</h1>
-                    <p>One thing that’s constantly on my mind is 
-                        “Why am I so lazy? Why don’t I feel like doing this simple task even 
-                        though I would simply benefit?”</p>
-                    <img src="/ghibli-resting.webp" alt="" className="imgMax"/>
-                    <p>One answer that I’ve thought of is “Because it encourages us to be efficient 
-                        in how we approach the problem”. From this perspective, you could 
-                        consider the lazy voice inside of you as a source of pragmatism, so 
-                        that you don’t spend all your days going after one goal. 
-                        Which is a really positive shift of perspective!</p>
-                    <p>On an aside, it’s interesting to think of how the language we use influences us. 
-                        I wouldn’t call someone that’s a good-for-nothing “pragmatic”, 
-                        but if we’re trying our hardest, and yet finding limits to what our 
-                        mind is OK with spending time on, maybe we shouldn’t call that ‘laziness’, 
-                        but something like ‘pragmatic’! Maybe it’s a good thing that our mind pushes
-                        us to consider “Maybe there’s a better use of my time”.</p>
-                    <p>Though, I guess I wouldn’t go so far as to say watching Netflix is
-                        objectively good for you, which a lot of people do. But it makes sense 
-                        that as organisms we don’t want to pursue something if we already feel 
-                        secure enough. Perhaps a lot of it is how our environment influences us, 
-                        or habit. I don’t really know.
+                    <h1>ON LAZINESS</h1>
+                    <p>
+                        No matter your current motivation, in the end you will be lazy. 
+                        This feels like a directive we follow regardless our thoughts on the matter.
+                        I used to often think “Why can’t I do work, even though it would only benefit me?”.
+                        Recently I discovered a new perspective. 
+                        This sense of laziness is actually exceedingly useful for us.
+                        It encourages us to be efficient in how we use our time, our energy. 
+                        This sense of efficiency is so important that we are given a very 
+                        strong urge to follow it regardless of what goes on in our conscious mind.
+                    </p>
+                    {/* <img src="/large-mountains.jpg" alt="" className="imgMax"/> */}
+                    <p>
+                        But should we fight back our laziness through self-discipline, 
+                        in pursuit of our goals? I would argue that the discomfort we 
+                        experience when trying to exercise self-discipline is because we don’t 
+                        understand our own laziness. Our laziness is just there to ensure we’re 
+                        not doing something for no reason. <em>It’s not there to hold you back</em>.
+                    </p>
+                    <p>Consider a few scenarios:</p>
+                    <ul>
+                        <li>
+                            You dread doing your job
+                            <ul>
+                                <li>
+                                    Does this job give you experience you need for your ideal job?
+                                </li>
+                                <li>
+                                    Do you need the money?
+                                </li>
+                                <li>
+                                    If you put a little bit of time into making sure you can do your 
+                                    job well now, would that save you grief later on?
+                                </li>
+                            </ul>
+                        </li>
+                    </ul> 
+                    <p>
+                        All these points are simply questions to ask to make sure you’re 
+                        using your time well. If you don’t want to do something, ask yourself 
+                        if there’s a way to make things easier for yourself, or if what you 
+                        want to do will give you much value at all.
                     </p>
                     <p>
-                        Either way, I’ve found that asking myself “What’s the easiest way of 
-                        doing this” actually helps me to achieve goals while dealing with this feeling 
-                        of laziness. I realised that at times I’d been stubbornly thinking that I’m 
-                        simply lazy for dreading doing a task, when in reality it was my body 
-                        telling me “Hey, maybe you could do this task in a more efficient way” 
-                        rather than it being something like divine retribution for my hubris.
+                        And in fact, you may find that sometimes putting in some time doing something 
+                        well <em>now</em> can save you effort in the long run. As an example, 
+                        dieting well and really pushing yourself at the gym <em>now</em> so that 
+                        you reach your health goals quicker, and possibly saving years of 
+                        mediocre trips to the gym. In this way, you can be lazy by trying 
+                        to do something well. Think of all the extra free time you’d have saved.
                     </p>
                     <p>
-                        If you’re feeling lazy, consider if what you’re doing is really worth your time. 
-                        Use your laziness as a tool to help yourself stay efficient.
+                        Be careful; By doing something ‘well’, I don’t necessarily mean putting in effort. 
+                        Make sure you do the actual task in the laziest way possible, too, to
+                        make things easier for you. It’s common to think of something being done 
+                        ‘lazily’ as ‘badly’, but on the flip side I think a common mistake is to 
+                        put in more effort rather than finding a quicker route to completing the task. 
+                        Use your inbuilt laziness as a tool to help you not waste more energy than 
+                        necessary on something.
                     </p>
                     <p>
-                        2023/08/22
+                        2023/08/26
                     </p>
                 </div>
             </div>
