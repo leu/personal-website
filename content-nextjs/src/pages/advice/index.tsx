@@ -29,8 +29,7 @@ export default function Recommended() {
                         into pursuing fulfilling goals.
                         It's not uncommon for me to sleep for over 12 hours some days. So there are times I get depressed.
                         And so I've realised that actually <em>trying</em> is necessary for happiness. It may sound obvious,
-                        but it's hard, really hard, so it's easy to forget. I understand now what various authors mean when they 
-                        write that work is the best medicine.
+                        but it's hard, really hard, so it's easy to forget.
                     </p>
                     <img className="vagabondImage" src="/vagabond-alone.jpg"/>
                 </div>
