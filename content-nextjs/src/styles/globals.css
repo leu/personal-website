@@ -115,3 +115,9 @@ img {
 ul {
 	padding-left: 2.5rem;
 }
+
+.credits {
+	display: block;
+	color: white;
+	text-align: center;
+}

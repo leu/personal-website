@@ -32,6 +32,7 @@ export default function Recommended() {
                         but it's hard, really hard, so it's easy to forget.
                     </p>
                     <img className="vagabondImage" src="/vagabond-alone.jpg"/>
+                    <span className="credits">Credit to the Vagabond manga for these images</span>
                 </div>
             </div>
 		</>

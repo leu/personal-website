@@ -6,7 +6,7 @@ import general from "@/styles/general.module.css"
 export default function Thoughts( { thoughtsArray }: any ) {
     return <>
         <Head>
-            <title>Daniel Simols - Scrawler</title>
+            <title>Daniel Simols - Thoughts</title>
             <meta name="viewport" content="width=device-width" />
         </Head>
 
