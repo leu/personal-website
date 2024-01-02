@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/navbar";
+import general from "@/styles/general.module.css"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <div className="background">
         {Navbar()}
         <div className="body">
+          <img src="/self-portrait.jpeg" width={200} height={200} className={general.selfPortrait}/>
           <p>Hello 👋, I'm Daniel. I'm studying Computer Science in my 4th year at Imperial College London.</p><p>You can contact me through:</p>
           <ul>
             <li>Discord:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inlieuofleu</li>
