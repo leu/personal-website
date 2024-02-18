@@ -16,7 +16,27 @@ export default function Recommended() {
                     <img className="vagabondImage" src="/large-mountains.jpg"/>
                     {/* <img className="vagabondImage" src="/vagabond-alone.jpg"/> */}
                     <span className="credits">Credit to the Vagabond manga for this image</span>
-                    <h2 className="adviceTitle">Pursue What You Want Most Right Now</h2>
+                    <h2 className="adviceTitle">Doing something well: Time &gt; Effort</h2>
+                    <p className="advicePara">
+                        I grew up with what I believe to be high standards for myself. Though the mindset isn't bad,
+                        it turned out to be ineffective because I often ended up not doing a task at all from fear of not
+                        doing it up to my standards. I didn't study because I thought I could only study if I had the energy to
+                        concentrate very hard. I didn't communicate to classmates of fear I might say something stupid. Stuff like that.<br/><br/>
+
+                        Recently, I've realised that trying too hard on goals is simply not necessary. Doing something is better
+                        than doing nothing. That's the reason I was so good at computer games. It's not like I tried to be good
+                        at them, I just spend a lot of time on them. So it's better to put on some music, relax, and just do
+                        something, anything at all, rather than nothing in fear of it not being good enough.
+                    </p>
+                    <h2 className="adviceTitle">To those with Psoriasis:</h2>
+                    <p className="advicePara">
+                        Try eating less carbs, having cold showers, and if you're really desperate, I've found sleeping less helps, probably due to cortisol being released.<br/><br/>
+
+                        If it's really bad, both topical treatments like Dovobet, and UV light therapy, have helped immensely in managing it for me.<br/><br/>
+
+                        I've read a meta-study showing that a tonsillectomy is very effective for a variety of psoriasis types, but I am still saving up to try it out.
+                    </p>
+                    {/* <h2 className="adviceTitle">Pursue What You Want Most Right Now</h2>
                     <p className="advicePara">
                         Our goal is to feel happy. This can be done from the reward system in the brain. What gets
                         rewarded and what doesn't is quite variable and fuzzy, and it's difficult to create a
@@ -57,7 +77,7 @@ export default function Recommended() {
                         My conclusion, hard as it was to come to during this period where I sometimes slept over 12 hours a day,
                         was that I wasn't trying hard enough to pursue my goals. I tried putting in some effort,
                         and it started paying off.
-                    </p>
+                    </p> */}
                 </div>
             </div>
 		</>

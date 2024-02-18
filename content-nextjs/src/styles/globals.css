@@ -105,11 +105,22 @@ img {
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
+	margin: 0 0 50px 0;
 }
 
-.vagabondImage {
-	margin: 10px auto 10px;
-	max-width: 100%;
+@media (max-width: 820px) {
+	.vagabondImage {
+		margin: 10px auto 10px;
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 820px) {
+	.vagabondImage {
+		margin: 10px auto 10px;
+		max-width: 100%;
+		width: 80%;
+	}
 }
 
 ul {
@@ -127,6 +138,15 @@ ul {
 	margin: 0 0 0 0;
 }
 
-.advicePara {
-	margin: 0 0 50px 0;
+@media (max-width: 820px) {
+	.advicePara {
+		margin: 0 0 50px 0;
+	}
+}
+
+@media (min-width: 820px) {
+	.advicePara {
+		margin: 0 0 50px 0;
+		padding: 0 250px 0 250px;
+	}
 }
