@@ -16,25 +16,37 @@ export default function Recommended() {
                     <img className="vagabondImage" src="/large-mountains.jpg"/>
                     {/* <img className="vagabondImage" src="/vagabond-alone.jpg"/> */}
                     <span className="credits">Credit to the Vagabond manga for this image</span>
-                    <h2 className="adviceTitle">Doing something well: Time &gt; Effort</h2>
+                    <h2 className="adviceTitle">Avoid Distractions</h2>
                     <p className="advicePara">
-                        I grew up with what I believe to be high standards for myself. Though the mindset isn't bad,
-                        it turned out to be ineffective because I often ended up not doing a task at all from fear of not
-                        doing it up to my standards. I didn't study because I thought I could only study if I had the energy to
-                        concentrate very hard. I didn't communicate to classmates of fear I might say something stupid. Stuff like that.<br/><br/>
-
-                        Recently, I've realised that trying too hard on goals is simply not necessary. Doing something is better
-                        than doing nothing. That's the reason I was so good at computer games. It's not like I tried to be good
-                        at them, I just spend a lot of time on them. So it's better to put on some music, relax, and just do
-                        something, anything at all, rather than nothing in fear of it not being good enough.
+                        Either do your most important task, or nothing. Don't watch any YouTube, Netflix, or even music. It WILL distract you,
+                        and will lead to regrets. You'll get bored so quickly that you will end up doing what you know you should do.
                     </p>
-                    <h2 className="adviceTitle">To those with Psoriasis:</h2>
+                    <h2 className="adviceTitle">Have a Mindset of "It's Easy"</h2>
                     <p className="advicePara">
-                        Try eating less carbs, having cold showers, and if you're really desperate, I've found sleeping less helps, probably due to cortisol being released.<br/><br/>
-
-                        If it's really bad, both topical treatments like Dovobet, and UV light therapy, have helped immensely in managing it for me.<br/><br/>
-
-                        I've read a meta-study showing that a tonsillectomy is very effective for a variety of psoriasis types, but I am still saving up to try it out.
+                        There are many times where I put something off because it was too stressful to think about. Don't worry
+                        about it so much. Just do something, and remember that everything is easy. This way it actually ends up being easy.
+                        Lots of time spent on something brings amazing results compared to a little time while stressing yourself out.
+                    </p>
+                    <h2 className="adviceTitle">Talk to Yourself</h2>
+                    <p className="advicePara">
+                        Talk to yourself whenever you get the chance. It keeps you thinking.
+                    </p>
+                    <h2 className="adviceTitle">Have Good Sleep</h2>
+                    <p className="advicePara">
+                        Sleep 7 hours at the same time each day. I prefer to be an early riser if possible. If you're like me and find it hard
+                        to get out of bed in the morning, during daytime while you're wide awake, get into bed, rest for maybe 1 minute, and get out of bed as quickly
+                        as possible to train your muscle memory. It works.
+                    </p>
+                    <h2 className="adviceTitle">Have More Confidence Socially!</h2>
+                    <p className="advicePara">
+                        I've found the vast majority of the time, people are much more receptive to talking than you expect. 
+                        If someone isn't receptive, they will quickly show you, but there's no reason to take it personally, just respect it and move on.
+                        Let's live a full life!
+                    </p>
+                    <h2 className="adviceTitle">Your advice?</h2>
+                    <p className="advicePara">
+                        The advice listed so far has been very very helpful to me. If you would like to chat about this or give me your own piece of advice,
+                        do send a message on WhatsApp!
                     </p>
                     {/* <h2 className="adviceTitle">Pursue What You Want Most Right Now</h2>
                     <p className="advicePara">
