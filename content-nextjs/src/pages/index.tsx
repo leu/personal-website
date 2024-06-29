@@ -13,13 +13,13 @@ export default function Home() {
       <div className="background">
         {Navbar()}
         <div className="body">
-          <img src="/self-portrait.jpeg" width={200} height={200} className={general.selfPortrait}/>
-          <p>Hello 👋, I'm Daniel. I'm studying Computer Science in my 4th year at Imperial College London.</p><p>You can contact me through:</p>
+          <img src="/self-portrait.jpg" width={200} height={200} className={general.selfPortrait}/>
+          <p>Hello 👋, I'm Daniel. I'm working as a founding full-stack engineer at Solve Intelligence.</p><p>You can contact me through:</p>
           <ul>
-            <li>Discord:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inlieuofleu</li>
-            <li>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in.lieu.of.leu@gmail.com</li>
-            <li>Uni Email:&nbsp;&nbsp;ds1920@ic.ac.uk</li>
-            <li>Number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+44 7340 364 913</li>
+            {/* <li>Discord:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inlieuofleu</li> */}
+            <li>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in.lieu.of.leu@gmail.com</li>
+            {/* <li>Uni Email:&nbsp;&nbsp;ds1920@ic.ac.uk</li> */}
+            <li>WhatsApp:&nbsp;&nbsp;+44 7340 364 913</li>
           </ul>
           <p>And here are some professional links:</p>
           <ul>
