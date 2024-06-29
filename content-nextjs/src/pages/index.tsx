@@ -14,7 +14,9 @@ export default function Home() {
         {Navbar()}
         <div className="body">
           <img src="/self-portrait.jpg" width={200} height={200} className={general.selfPortrait}/>
-          <p>Hello 👋, I'm Daniel. I'm working as a Founding Full-Stack Engineer at Solve Intelligence.</p><p>You can contact me through:</p>
+          <p>Hello 👋, I'm Daniel. I'm working as a Founding Full-Stack Engineer at Solve Intelligence.</p>
+          <p>I'm interested in the web, keyboards, and perhaps some polaroid photography.</p>
+          <p>You can contact me through:</p>
           <ul>
             {/* <li>Discord:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inlieuofleu</li> */}
             <li>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in.lieu.of.leu@gmail.com</li>
